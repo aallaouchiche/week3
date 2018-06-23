@@ -1,0 +1,88 @@
+.Rental {
+    width: 600px;
+    height: 400px;
+    border-width: 1px;
+    align-items: center;
+    flex-basis: 32%;
+    margin-top: 20px;
+}
+
+  .Rental-image {
+    max-width: 300px;
+    padding: 10px;
+  }
+
+  .Rental-title {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .Rental-button {
+    margin: 2px;
+  }
+  .RentalPrice {
+color: rgb(72, 72, 72);
+font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.0167px;
+white-space: normal;
+-moz-osx-font-smoothing: grayscale;
+  }
+
+.RentalCity{
+color: rgb(72, 72, 72);
+font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.0167px;
+white-space: normal;
+-moz-osx-font-smoothing: grayscale;
+  }
+
+
+  .rating {
+    align-items: center;
+  }
+
+  .rating__stars {
+    display: inline;
+  }
+
+  .rating__score {
+    padding-right: 0.75rem;
+  }
+
+  .stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+  }
+
+  .stars-outer::before {
+    label:★;
+    content: '★★★★★';
+    color: white;
+  }
+
+  .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .stars-inner::before {
+    content: '★★★★★';
+    color: black;
+  }
+
+  .cartImage{
+    hight: 50px;
+    width: 70px;
+
+  }
+  .Rental-City{
+    align: left;
+  }
